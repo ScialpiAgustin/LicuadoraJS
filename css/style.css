@@ -4,6 +4,16 @@
   margin: 0;
 }
 
+.body{
+  background-color: rgb(255, 255, 255);
+}
+.titulo{
+  margin-top: 10px;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
+
+}
 .blender {
   /* Posicionamiento */
   position: fixed;
@@ -18,6 +28,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../img/licuadoraApagada.png);
+  
 }
 
 .blender.active {
